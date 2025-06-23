@@ -1,0 +1,44 @@
+:root {
+  --bg-sky-color1: #034aa6;
+  --bg-sky-color2: #035aa6;
+  --bg-sky-color3: #0477bf;
+  --bg-sky-color4: #049dd9;
+  --bg-sky-color5: #79d0f2;
+  --bg-sky-clouds1: rgb(244, 227, 227);
+  --bg-sky-clouds2: rgb(247, 235, 223);
+  --bg-sky-sun1: #f9d71c;
+  --bg-sky-sun2: #f9a81c;
+  --bg-sky-sun3: #f9661c;
+  --bg-sky-moon1: #f9f9f9;
+  --bg-sky-moon2: #f0f0f0;
+  --bg-sky-moon3: #d1d1d1;
+  --love-color1: #ff452e;
+  --love-color2: #ff4a74;
+  --love-color3: #e85a59;
+  --love-color4: #ff818d;
+  --lighter-color: #f0f0f0;
+  --darker-color: #1a1a1a;
+  --light: 300;
+  --normal: 400;
+  --bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  cursor: url("../Assets/cursor/heart-cursor.cur"), auto;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
